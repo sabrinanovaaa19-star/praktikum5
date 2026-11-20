@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+nav {
+    flex: 1;
+    background-color: #ffc0cb;
+    padding: 25px;
+}
+
+.kanan {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #eae084;
+    padding: 25px;
+}
+
+.tengah {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+aside {
+    flex: 1;
+    background-color: #00ffff;
+    padding: 25px;
+}

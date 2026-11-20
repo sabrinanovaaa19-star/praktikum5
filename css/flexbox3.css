@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+header, footer {
+    background-color: #eae084;
+    padding: 25px;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main article {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+#main aside {
+    flex: 1;
+    background-color: #ffc0cb;
+    padding: 25px;
+}
+
+#main nav {
+    flex: 1;
+    background-color: #00ced1;
+    padding: 25px;
+}
